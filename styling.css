@@ -87,6 +87,11 @@ input[type=text] {
   padding: 0 10% 10%;
  }
 
+ .expanded {
+     height:300px;
+     transition:.5s;
+ }
+
  
 
 
