@@ -1,0 +1,169 @@
+<!-- First create the Doctype html-->
+<!Doctype html>
+
+<!--Include the languague so the browser(s) know the language-->
+<html lang="en">
+    <!--Specify the metadata-->
+    <head>
+        <!--Don't forget the title, it's necessary-->
+        <title>About Raymond "the Kidd" Fajardo</title>
+        <!-- Define keywords for the search engine, wonder how this plays into SEO?-->
+        <meta name= "keywords" content="HTML, CSS, JavaScript, Raymond, The Kidd, Volleyball, Dimelo, Pacho,">
+        <!-- Define a description for the webpage-->
+        <meta name="description" content="Raymond's about page">
+        <!-- Define the author of the page -->
+        <meta name="author" content="Raymond Fajardo">
+
+        <!-- Set the viewport to make the website look good on all devices according to W3Schools, will it mess up the code in a certain way?-->
+        
+        <!-- Notes to follow when using viewport:
+            
+            1. Do NOT use large fixed width elements - For example, if an image is displayed at a width 
+            wider than the viewport it can cause the viewport to scroll horizontally. Remember to adjust this content to fit within the 
+            width of the viewport.
+
+            2. Do NOT let the content rely on a particular viewport width to render well - Since screen dimensions and width in CSS pixels 
+            vary widely between devices, content should not rely on a particular viewport width to render well.
+
+            3. Use CSS media queries to apply different styling for small and large screens - Setting large absolute CSS 
+            widths for page elements will cause the element to be too wide for the viewport on a smaller device. Instead, 
+            consider using relative width values, such as width: 100%. Also, be careful of using large absolute positioning values. It may cause the element to fall outside the viewport on small devices.
+
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Insert the ref link for the StyleSheet when ready but first focus on the markup-->
+        
+    </head>
+
+    <!--Insert the body tag -->
+
+    <body>
+        <h1 class="centered">Welcome to my Home Page! </h1>
+        <h3 class="centered">Check out some info about The Kidd</h3>
+
+        <!--Use a section tag to define a large partition of the doc-->
+        <section id="info-section">
+            <p>A little information about me. At the time I'm writing this sentence I'm in the middle of killing 
+                some yuenglings (I should've learned from Anakin), listening to "White Pony" by the Deftones, getting my reps in at my home gym,
+                and making plans with my volleyball partner for our tournament this weekend. 
+                <br> Check out my team's record last season, we lost the championship... <br>
+                FUUUUUUUUUUUUUUUUUUUUUUUUUUUUHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+            </p>
+
+            <!--Define the table-->
+            <table>
+                <tr>
+                    <th>Match</th>
+                    <th>Outcome</th>
+                </tr>
+                <tr>
+                    <td>The Superstars vs Spikin' Strangers</td>
+                    <td>Win (2-0)</td>
+                </tr>
+                <tr>
+                    <td> The Superstars vs Sandy Cheeks</td>
+                    <td> Win (2-0)</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs Food Stuff?</td>
+                    <td>Win (2-0)</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs Alex's Angels and Luis</td>
+                    <td>Win (2-1)</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs 4,5,6</td>
+                    <td>Win (2-0)</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs Nets and Balls </td>
+                    <td> Loss (1-2)</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs Getting Diggy with it</td>
+                    <td>Loss (1-2)</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs Getting Diggy with it</td>
+                    <td>Win (2-1) The Kidds Serve(s) came clutch in this game</td>
+                </tr>
+                <tr>
+                    <td>The Superstars vs 4,5,6</td>
+                    <td>Win (2-1)</td>
+                </tr>
+                <tr>
+                    <td> The Superstars vs Alex's Angels and Luis</td>
+                    <td>Loss (0-2) Lost the championship game :(</td>
+                </tr>
+            </table>
+            
+            <p>These are my hobbies:</p>
+            <!--Create the unordered list-->
+            <ul>
+                <li>Blowing stuff up</li>
+                <li>Being Latino</li>
+                <li>Reading too much Warhammer 40K Lore/Books</li>
+                <li>Making people Laugh</li>
+                <li>Being "The Kidd"</li>
+            </ul>
+
+            <p>My favorite books are:</p>
+            <!--Create an ordered list-->
+            <ol>
+                <li>"Self-Reliance" By Ralph Waldo Emerson</li>
+                <li>"El Amor en los tiempos del Colera" By Gabriel Garcia Marquez</li>
+                <li>"The Logic of Scientific Discovery" By Karl Popper</li>
+                <li>"Tanith First and Only" By Dan Abnett</li>
+                <li>"La Llamada de la Tribu" By Mario Vargas Llosa</li>
+                <li>"The Open Society and it's Enemies" By Karl Popper </li>
+                <Li>"Road to Serfdom" By Friedrich Hayek</Li>
+            </ol>
+        </section>
+        
+        <!-- Create a new section for images-->
+        <section id="photos-section">
+
+            <!--Create different div blocks to contain the images-->
+            <div class="images">
+                <P>Family</P>
+                <img src="Family.jpg" alt="LatinX Family Smiling" height="200px"/>
+            </div>
+            <div class="images">
+                <P>Jump Serve</P>
+                <img src="Volleyball.jpg" alt="The Kidd smashing a Jump Serve in Volleyball" height="200px"/>
+            </div>
+            <div class="images">
+                <P>My Mom</P>
+                <img src="Mami.jpg" alt="Latina Mother Smiling" height="200px"/>
+            </div>
+            <div class="images">
+                <P>Community Leadership</P>
+                <img src="Leadership Saint Pete.jpg" alt="The Kidd being awarded a Local Community Leadership Award" height="200px"/>
+            </div>
+            <div class="images">
+                <P>Dancing</P>
+                <img src="Dancing.jpg" alt="The Kidd Dancing" height="200px"/>
+            </div>
+            <div class="images">
+                <P>When I meet someone new</P>
+                <img src="Conversation.jpg" alt="The Kidd talking to a Lobster" height="200px"/>
+            </div>
+            <div class="images">
+                <P>Girlfriend</P>
+                <img src="Girlfriend.jpg" alt="The Kidd's Girlfriend driving her car too fast over the bridge like always" height="200px"/>
+            </div>
+            <div class="images">
+                <P>Classic</P>
+                <img src="Classic.jpg" alt="The Kidd catching Z's whenever he can. Even if just for 5 minutes before the friends 
+                made him do an Irish carbomb" height="200px"/>
+            </div>
+        </section>
+
+
+    </body>
+
+
+
+</html>
