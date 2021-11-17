@@ -29,25 +29,19 @@ img {
     transition: .5s;
 }
 
-/*
-    We can also select multiple selectors at once
- */
+
  table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: .25rem;
   }
 
- /*
-    We can use the :hover pseudoselector to define behavior when an element is hovered on
- */
+ 
  img:hover {
      cursor: pointer;
  }
 
- /*
-    We can also select tags with specific attribute settings
- */
+
  input[type=button] {
     border: 0;
     border-radius: 15px;
@@ -84,7 +78,7 @@ input[type=text] {
   padding: 0 20%;
  }
 
- /*nEdit  the image sections */
+ 
  #photos-section {
   background-color: var(--palette-darkest);
   color: var(--palette-lightest);
