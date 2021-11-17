@@ -1,0 +1,99 @@
+/*Create custom properties*/
+
+:root{
+    /*created a random RGB value to see what it does*/
+    --palette-lightest: #DC143C #255,239,213;
+    --palette-light: #E7D2CC;
+    --palette-dark: #B9B7BD;
+    --palette-darkest: #868B8E;
+    --white: #f6fdfd;
+    --black: #09090a;
+}
+
+html{
+    font-family: cursive;
+    color: var(--black);
+    background-color: var(--palette-lightest);
+}
+
+body {
+    /* No idea what's going to happen but going to mess with the vh, vm, and % */
+    margin: 1 vh, 1vw;
+    padding: 1 em;
+}
+
+img {
+    height: 200px;
+    border: 2px solid var(--palette-light);
+    border-radius: 5px;
+    transition: .5s;
+}
+
+/*
+    We can also select multiple selectors at once
+ */
+ table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: .25rem;
+  }
+
+ /*
+    We can use the :hover pseudoselector to define behavior when an element is hovered on
+ */
+ img:hover {
+     cursor: pointer;
+ }
+
+ /*
+    We can also select tags with specific attribute settings
+ */
+ input[type=button] {
+    border: 0;
+    border-radius: 15px;
+    padding: .25rem .5rem;
+    background-color: var(--palette-lightest);
+    color: var(--black);
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+    background-color: var(--palette-darkest);
+    color: var(--palette-lightest);
+}
+
+input[type=text] {
+    border: 0;
+    height: 1.4rem;
+    border-radius: 5px;
+    background-color: var(--palette-lightest);
+}
+
+
+ .images {
+  display: inline-block;
+  text-align: center;
+  transition: .5s;
+ }
+
+ .centered {
+  text-align: center;
+ }
+
+ #info-section {
+  padding: 0 20%;
+ }
+
+ /*nEdit  the image sections */
+ #photos-section {
+  background-color: var(--palette-darkest);
+  color: var(--palette-lightest);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 10% 10%;
+ }
+
+ 
+
+
+   
